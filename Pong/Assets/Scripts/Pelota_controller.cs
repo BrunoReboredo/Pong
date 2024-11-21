@@ -66,7 +66,7 @@ public class Pelota_controller : MonoBehaviour
         Vector2 impulse = new Vector2(x, y);
 
         //resetear la velocidad de la pelota cad vez q sale
-       // rb.linearVelocityY = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         rb.AddForce(impulse * force, ForceMode2D.Impulse);
     }
 
