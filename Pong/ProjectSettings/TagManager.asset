@@ -6,6 +6,8 @@ TagManager:
   tags:
   - pala_izqui
   - pala_dere
+  - Porteria_dere
+  - Porteria_izqui
   layers:
   - Default
   - TransparentFX

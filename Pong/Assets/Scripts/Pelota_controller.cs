@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Pelota_controller : MonoBehaviour
@@ -15,4 +16,18 @@ public class Pelota_controller : MonoBehaviour
     {
         
     }
+
+    void OnCollisionEnter2D(Collision2D other){
+        string tag = other.gameObject.tag;
+
+            if (tag == "pala_dere" || tag == "pala_izqui"){
+                Debug.Log("he colisionado");
+            }
+           // Debug.Log("he colisionado");
+    }
+
+    void OnTriggerEnter2D (Collider2D other){
+        Debug.Log ("GOl "+ other.tag);
+    }
+
 }
