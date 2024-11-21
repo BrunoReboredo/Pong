@@ -5,6 +5,7 @@ using UnityEngine;
 public class Pelota_controller : MonoBehaviour
 {
     Rigidbody2D rb;
+    [SerializeField]GameManager manager;
     [SerializeField]float force;
     [SerializeField] float delay;
     const float angle_min= -20;
@@ -43,8 +44,10 @@ public class Pelota_controller : MonoBehaviour
 
         if (other.tag== "Porteria_dere"){
             StartCoroutine(LanzamientoDePelota(1));
+            manager.AddPointp1();
         }else if (other.tag == "Porteria_izqui"){
             StartCoroutine(LanzamientoDePelota(-1));
+            manager.AddPointp2();
         }
     }
 
