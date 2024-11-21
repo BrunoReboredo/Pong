@@ -2284,6 +2284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 0.5
+  delay: 2
 --- !u!1 &2032989483
 GameObject:
   m_ObjectHideFlags: 0
