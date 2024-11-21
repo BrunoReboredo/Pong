@@ -423,7 +423,7 @@ Transform:
   m_GameObject: {fileID: 261657994}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.0197, y: 4.99, z: 90}
+  m_LocalPosition: {x: 0, y: 5.2, z: 90}
   m_LocalScale: {x: 0.5232752, y: 18.521759, z: 0.85858}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1415,7 +1415,7 @@ Transform:
   m_GameObject: {fileID: 740028321}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8, y: 0, z: 0}
+  m_LocalPosition: {x: -8.5, y: 0, z: 0}
   m_LocalScale: {x: 0.25, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1448,7 +1448,7 @@ Transform:
   m_GameObject: {fileID: 896617680}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.0067, y: -4.99, z: 90}
+  m_LocalPosition: {x: 0, y: -5.25, z: 90}
   m_LocalScale: {x: 0.6423389, y: 18.466722, z: 0.85858}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1673,6 +1673,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   txtScoreP1: {fileID: 1990548004}
   txtScoreP2: {fileID: 1398626087}
+  pelota: {fileID: 1972622508}
 --- !u!4 &1061526330
 Transform:
   m_ObjectHideFlags: 0
@@ -2283,7 +2284,7 @@ Transform:
   m_GameObject: {fileID: 1894223090}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalPosition: {x: 8.5, y: 0, z: 0}
   m_LocalScale: {x: 0.25, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2321,7 +2322,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!58 &1972622509
 CircleCollider2D:
   m_ObjectHideFlags: 0

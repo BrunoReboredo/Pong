@@ -5,8 +5,8 @@ public class pala_controller:MonoBehaviour
 {
 
     //Variables
-    const float Max_Y = 4.1f;
-    const float Min_Y = -4.1f;
+    [SerializeField]const float Max_Y = 4.5f;
+    [SerializeField]const float Min_Y = -4.5f;
     [SerializeField] float speed = 4.2f; //al ser la misma velocidad, se usa una variable para evitar problemas
     void Start(){
 
